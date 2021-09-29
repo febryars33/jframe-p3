@@ -26,9 +26,9 @@ public class JFrame_1 extends javax.swing.JFrame {
     // III A
     private final int a3 = 1000000;
     // III B
-    private final int b3;
+    private final int b3 = 1250000;
     // III C
-    private final int c3;
+    private final int c3 = 1500000;
     // IV A
     private final int a4 = 2000000;
     // IV B
@@ -43,14 +43,12 @@ public class JFrame_1 extends javax.swing.JFrame {
     	getContentPane().setFont(new Font("Arial", Font.PLAIN, 11));
     	setBackground(SystemColor.menu);
     	getContentPane().setBackground(SystemColor.menu);
-        this.b3 = 1250000;
-        this.c3 = 1500000;
         initComponents();
         setTitle("Aplikasi Perhitungan Gaji Karyawan");
     }
 
     /**
-     * Fungsi untuk mendapatkan nilai
+     * Fungsi untuk mendapatkan nilai gaji
      * berdasarkan golongan tertentu.
      * 
      * @return int
