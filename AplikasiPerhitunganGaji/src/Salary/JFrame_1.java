@@ -249,7 +249,7 @@ public class JFrame_1 extends javax.swing.JFrame {
             }
         });
 
-        cb_agama.setEditable(true);
+        cb_agama.setEditable(false);
         cb_agama.setModel(new javax.swing.DefaultComboBoxModel < > (new String[] {
             "Islam",
             "Kristen",
@@ -332,7 +332,7 @@ public class JFrame_1 extends javax.swing.JFrame {
 
         jLabel8.setText("Status Perkawinan");
 
-        cb_perkawinan.setEditable(true);
+        cb_perkawinan.setEditable(false);
         cb_perkawinan.setModel(new javax.swing.DefaultComboBoxModel < > (new String[] {
             "Menikah",
             "Belum Menikah"
