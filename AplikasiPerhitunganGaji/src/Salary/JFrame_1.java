@@ -13,6 +13,7 @@ import javax.swing.GroupLayout;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import java.awt.SystemColor;
 import java.awt.Font;
+import java.awt.Toolkit;
 
 /**
  *
@@ -40,6 +41,7 @@ public class JFrame_1 extends javax.swing.JFrame {
      * Creates new form JFrame_1
      */
     public JFrame_1() {
+    	setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Febriansyah\\Downloads\\Decade-of-Eco-Restoration-Logo-1.png"));
     	getContentPane().setFont(new Font("Arial", Font.PLAIN, 11));
     	setBackground(SystemColor.menu);
     	getContentPane().setBackground(SystemColor.menu);
