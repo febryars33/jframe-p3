@@ -165,11 +165,11 @@ public class Dashboard extends javax.swing.JFrame {
 
         jLabel19.setText("TUJNJANGAN");
 
-        label_gaji.setText("jLabel16");
+        label_gaji.setText("-");
 
-        label_tunjangan.setText("jLabel17");
+        label_tunjangan.setText("-");
 
-        label_total_gaji.setText("jLabel18");
+        label_total_gaji.setText("-");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
